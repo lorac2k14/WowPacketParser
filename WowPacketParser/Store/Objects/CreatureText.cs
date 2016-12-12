@@ -10,13 +10,13 @@ namespace WowPacketParser.Store.Objects
         [DBFieldName("entry", true)]
         public uint? Entry;
 
-        [DBFieldName("groupid", true)]
+        [DBFieldName("groupid")]
         public uint? GroupId;
 
-        [DBFieldName("id", true)]
+        [DBFieldName("id")]
         public uint? ID;
 
-        [DBFieldName("text")]
+        [DBFieldName("text", true)]
         public string Text;
 
         [DBFieldName("type")]
